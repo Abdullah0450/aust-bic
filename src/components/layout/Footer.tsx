@@ -142,6 +142,31 @@ const Footer = () => {
           </motion.div>
         </div>
 
+        {/* Interactive Map */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4 }}
+          className="mt-12 glass h-80 w-full overflow-hidden rounded-2xl relative z-10 border border-white/10 group"
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            id="gmap_canvas_footer"
+            src="https://maps.google.com/maps?q=Abbottabad+University+of+Science+and+Technology&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            frameBorder="0"
+            scrolling="no"
+            marginHeight={0}
+            marginWidth={0}
+            className="absolute inset-0 w-full h-full opacity-70 group-hover:opacity-100 grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
+            title="AUST Campus Map"
+          ></iframe>
+
+          {/* Overlay for glass effect (fades out on hover) */}
+          <div className="absolute inset-0 pointer-events-none bg-blue-900/20 group-hover:bg-transparent transition-colors duration-500"></div>
+        </motion.div>
+
         {/* Bottom Bar */}
         <motion.div
           initial={{ opacity: 0 }}
