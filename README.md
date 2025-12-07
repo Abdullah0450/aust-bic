@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BIC AUST - Business Incubation Center Showcase
 
 A modern, interactive 3D web platform showcasing the Business Incubation Center at Abbottabad University of Science & Technology. Built with React, TypeScript, Three.js, and Tailwind CSS for a stunning user experience.
@@ -234,3 +235,6 @@ Yes! Regardless of your hosting platform, you can connect a custom domain by:
 3. Configuring SSL/HTTPS through your hosting platform
 
 Each hosting platform has different instructions for custom domains - refer to their documentation for specific steps.
+=======
+# aust-bic
+>>>>>>> df59758c5d8e7cfb60deeafc6e6127d5a09d7fe4
