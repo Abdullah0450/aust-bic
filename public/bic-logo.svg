@@ -1,0 +1,60 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle Background -->
+  <circle cx="100" cy="100" r="95" fill="#1B3B7A" stroke="#C4A563" stroke-width="3"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#C4A563" stroke-width="2"/>
+  
+  <!-- Gear Pattern -->
+  <g fill="none" stroke="#C4A563" stroke-width="1.5">
+    <!-- Gear teeth around circle -->
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#C4A563" stroke-width="0.5" opacity="0.3"/>
+  </g>
+  
+  <!-- Four Quadrants with Colors -->
+  <defs>
+    <mask id="quadrant1">
+      <polygon points="100,100 100,30 170,30 170,100" fill="white"/>
+    </mask>
+    <mask id="quadrant2">
+      <polygon points="100,100 130,30 170,70 140,100" fill="white"/>
+    </mask>
+    <mask id="quadrant3">
+      <polygon points="100,100 100,170 30,170 30,100" fill="white"/>
+    </mask>
+    <mask id="quadrant4">
+      <polygon points="100,100 170,100 170,170 100,170" fill="white"/>
+    </mask>
+  </defs>
+  
+  <!-- Quadrant 1 - Orange (Lightbulb) -->
+  <rect x="70" y="70" width="60" height="60" fill="#FF9D3D" mask="url(#quadrant1)"/>
+  
+  <!-- Quadrant 2 - Purple (Target) -->
+  <rect x="70" y="70" width="60" height="60" fill="#D94FA8" mask="url(#quadrant2)"/>
+  
+  <!-- Quadrant 3 - Magenta (People) -->
+  <rect x="70" y="70" width="60" height="60" fill="#E91E8C" mask="url(#quadrant3)"/>
+  
+  <!-- Quadrant 4 - Blue (Chart) -->
+  <rect x="70" y="70" width="60" height="60" fill="#0066CC" mask="url(#quadrant4)"/>
+  
+  <!-- Center circle -->
+  <circle cx="100" cy="100" r="25" fill="#1B3B7A" stroke="#C4A563" stroke-width="1.5"/>
+  
+  <!-- Text: BUSINESS INCUBATION CENTRE (Top) -->
+  <path id="topCurve" d="M 30,100 A 70,70 0 0,1 170,100" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#C4A563" letter-spacing="2">
+    <textPath href="#topCurve" startOffset="50%" text-anchor="middle">
+      BUSINESS INCUBATION CENTRE
+    </textPath>
+  </text>
+  
+  <!-- Text: AUST (Bottom) -->
+  <path id="bottomCurve" d="M 170,100 A 70,70 0 0,1 30,100" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#C4A563" letter-spacing="3">
+    <textPath href="#bottomCurve" startOffset="50%" text-anchor="middle">
+      AUST
+    </textPath>
+  </text>
+</svg>
