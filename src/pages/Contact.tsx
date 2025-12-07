@@ -62,7 +62,7 @@ const Contact = () => {
 
   return (
     <Layout>
-      {/* Hero Section */}
+      {/* Hero Section */} 
       <section className="relative min-h-[50vh] flex items-center pt-32 pb-16 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">

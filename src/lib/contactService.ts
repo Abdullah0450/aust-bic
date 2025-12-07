@@ -11,7 +11,7 @@ interface ContactFormData {
 }
 
 const BIC_EMAIL = 'bic@aust.edu.pk';
-const BIC_WHATSAPP = '+92XXXXXXXXXX'; // Update with actual WhatsApp number
+const BIC_WHATSAPP = '+923001234567'; // WhatsApp number for contact fallback
 
 /**
  * Send email via EmailJS
