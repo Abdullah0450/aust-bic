@@ -30,7 +30,7 @@ const Footer = () => {
               <img 
                 src={bic}
                 alt="BIC AUST Logo" 
-                className="w-12 h-12 rounded-full group-hover:scale-110 transition-transform duration-300 object-cover"
+                className="w-12 h-12 group-hover:scale-110 transition-transform duration-300 object-cover"
               />
               <div>
                 <h3 className="font-heading font-bold text-xl gradient-text">BIC AUST</h3>
