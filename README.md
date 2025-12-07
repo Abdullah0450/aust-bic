@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# BIC AUST - Business Incubation Center Showcase
+# BIC AUST - Business Incubation Center
 
-A modern, interactive 3D web platform showcasing the Business Incubation Center at Abbottabad University of Science & Technology. Built with React, TypeScript, Three.js, and Tailwind CSS for a stunning user experience.
+A modern, interactive website for the Business Incubation Center at Abbottabad University of Science & Technology. Built with React, TypeScript, Three.js, and Tailwind CSS for a stunning user experience.
 
 ## Features
 
@@ -86,8 +85,8 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone <your-git-url>
-cd bic-3d-showcase
+git clone https://github.com/Abdullah0450/aust-bic.git
+cd aust-bic
 ```
 
 2. Install dependencies:
@@ -235,6 +234,3 @@ Yes! Regardless of your hosting platform, you can connect a custom domain by:
 3. Configuring SSL/HTTPS through your hosting platform
 
 Each hosting platform has different instructions for custom domains - refer to their documentation for specific steps.
-=======
-# aust-bic
->>>>>>> df59758c5d8e7cfb60deeafc6e6127d5a09d7fe4
